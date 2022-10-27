@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{22B56507-CD58-4B54-97B3-EEDB509BBA66}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>NhaTro</RootNamespace>
+    <AssemblyName>NhaTro</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BUS\AccountBUS.cs" />
+    <Compile Include="BUS\DanhThuBUS.cs" />
+    <Compile Include="BUS\deviceBUS.cs" />
+    <Compile Include="BUS\DichVuBUS.cs" />
+    <Compile Include="BUS\DienNuocBUS.cs" />
+    <Compile Include="BUS\HoaDonBUS.cs" />
+    <Compile Include="BUS\KhachHangBUS.cs" />
+    <Compile Include="BUS\RomBUS.cs" />
+    <Compile Include="BUS\ThuePhongBUS.cs" />
+    <Compile Include="DAL\AccountDAL.cs" />
+    <Compile Include="DAL\Connection.cs" />
+    <Compile Include="DAL\deviceDAL.cs" />
+    <Compile Include="DAL\DichVuDAL.cs" />
+    <Compile Include="DAL\DienNuocDAL.cs" />
+    <Compile Include="DAL\DoanhThuDAL.cs" />
+    <Compile Include="DAL\HoaDonDAL.cs" />
+    <Compile Include="DAL\KhachHangDAL.cs" />
+    <Compile Include="DAL\RomDAL.cs" />
+    <Compile Include="DAL\ThuePhongDAL.cs" />
+    <Compile Include="DAO\Account.cs" />
+    <Compile Include="DAO\device.cs" />
+    <Compile Include="DAO\DichVu.cs" />
+    <Compile Include="DAO\DienNuoc.cs" />
+    <Compile Include="DAO\HoaDon.cs" />
+    <Compile Include="DAO\KhachHang.cs" />
+    <Compile Include="DAO\Rom.cs" />
+    <Compile Include="DAO\ThuePhong.cs" />
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager.Designer.cs">
+      <DependentUpon>Manager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bill.Designer.cs">
+      <DependentUpon>Bill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="statistical.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="statistical.Designer.cs">
+      <DependentUpon>statistical.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rent.Designer.cs">
+      <DependentUpon>rent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phong.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager.resx">
+      <DependentUpon>Manager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bill.resx">
+      <DependentUpon>Bill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="statistical.resx">
+      <DependentUpon>statistical.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rent.resx">
+      <DependentUpon>rent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconkhoa1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_multimedia-39_2849797.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_business_finance_money-31_2784264.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_multimedia-26_2849810.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_multimedia-05_2849831.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconthoat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconKey.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_Home_131778.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_business_finance_money-31_27842641.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_business_finance_money-30_2784263.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_multimedia-17_2849819.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_multimedia-06_2849830.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_multimedia-12_2849824.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_business_finance_money-35_2784268.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_Create_131902.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_00-ELASTOFONT-STORE-READY_search_2703065.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Them.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sua.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timkiem.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="image\a1.PNG" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
