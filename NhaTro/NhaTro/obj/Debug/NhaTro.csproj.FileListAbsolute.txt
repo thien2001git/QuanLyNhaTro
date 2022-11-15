@@ -1,0 +1,75 @@
+E:\C#\NhaTro\NhaTro\bin\Debug\NhaTro.exe.config
+E:\C#\NhaTro\NhaTro\bin\Debug\NhaTro.exe
+E:\C#\NhaTro\NhaTro\bin\Debug\NhaTro.pdb
+E:\C#\NhaTro\NhaTro\obj\Debug\NhaTro.csprojAssemblyReference.cache
+E:\C#\NhaTro\NhaTro\obj\Debug\NhaTro.Form1.resources
+E:\C#\NhaTro\NhaTro\obj\Debug\NhaTro.Form2.resources
+E:\C#\NhaTro\NhaTro\obj\Debug\NhaTro.Properties.Resources.resources
+E:\C#\NhaTro\NhaTro\obj\Debug\NhaTro.csproj.GenerateResource.cache
+E:\C#\NhaTro\NhaTro\obj\Debug\NhaTro.exe
+E:\C#\NhaTro\NhaTro\obj\Debug\NhaTro.pdb
+E:\C#\NhaTro\NhaTro\obj\Debug\NhaTro.Form3.resources
+E:\C#\NhaTro\NhaTro\obj\Debug\NhaTro.Form4.resources
+E:\C#\NhaTro\NhaTro\obj\Debug\NhaTro.Form5.resources
+D:\QuanLyNhaTro\NhaTro\NhaTro\bin\Debug\NhaTro.exe.config
+D:\QuanLyNhaTro\NhaTro\NhaTro\bin\Debug\NhaTro.exe
+D:\QuanLyNhaTro\NhaTro\NhaTro\bin\Debug\NhaTro.pdb
+D:\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Properties.Resources.resources
+D:\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.csproj.GenerateResource.cache
+D:\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.exe
+D:\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.pdb
+D:\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.csprojAssemblyReference.cache
+D:\ThucTapChuyenNganh\QuanLyNhaTro\NhaTro\NhaTro\bin\Debug\NhaTro.exe.config
+D:\ThucTapChuyenNganh\QuanLyNhaTro\NhaTro\NhaTro\bin\Debug\NhaTro.exe
+D:\ThucTapChuyenNganh\QuanLyNhaTro\NhaTro\NhaTro\bin\Debug\NhaTro.pdb
+D:\ThucTapChuyenNganh\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.csprojAssemblyReference.cache
+D:\ThucTapChuyenNganh\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Properties.Resources.resources
+D:\ThucTapChuyenNganh\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.csproj.GenerateResource.cache
+D:\ThucTapChuyenNganh\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.csproj.CoreCompileInputs.cache
+D:\ThucTapChuyenNganh\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.exe
+D:\ThucTapChuyenNganh\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.pdb
+D:\ThucTapChuyenNganh\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Login.resources
+D:\ThucTapChuyenNganh\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Main.resources
+D:\ThucTapChuyenNganh\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Manager.resources
+D:\ThucTapChuyenNganh\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Bill.resources
+D:\ThucTapChuyenNganh\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.statistical.resources
+D:\ThucTapChuyenNganh\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.rent.resources
+D:\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Login.resources
+D:\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Main.resources
+D:\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Manager.resources
+D:\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Bill.resources
+D:\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.statistical.resources
+D:\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.rent.resources
+D:\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.csproj.CoreCompileInputs.cache
+D:\HXT\7_quanLyDuAnCntt\Team 6\Team 6\QuanLyNhaTro\NhaTro\NhaTro\bin\Debug\NhaTro.exe.config
+D:\HXT\7_quanLyDuAnCntt\Team 6\Team 6\QuanLyNhaTro\NhaTro\NhaTro\bin\Debug\NhaTro.exe
+D:\HXT\7_quanLyDuAnCntt\Team 6\Team 6\QuanLyNhaTro\NhaTro\NhaTro\bin\Debug\NhaTro.pdb
+D:\HXT\7_quanLyDuAnCntt\Team 6\Team 6\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.csproj.AssemblyReference.cache
+D:\HXT\7_quanLyDuAnCntt\Team 6\Team 6\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.csproj.SuggestedBindingRedirects.cache
+D:\HXT\7_quanLyDuAnCntt\Team 6\Team 6\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Login.resources
+D:\HXT\7_quanLyDuAnCntt\Team 6\Team 6\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Main.resources
+D:\HXT\7_quanLyDuAnCntt\Team 6\Team 6\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Manager.resources
+D:\HXT\7_quanLyDuAnCntt\Team 6\Team 6\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Bill.resources
+D:\HXT\7_quanLyDuAnCntt\Team 6\Team 6\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.statistical.resources
+D:\HXT\7_quanLyDuAnCntt\Team 6\Team 6\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.rent.resources
+D:\HXT\7_quanLyDuAnCntt\Team 6\Team 6\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Properties.Resources.resources
+D:\HXT\7_quanLyDuAnCntt\Team 6\Team 6\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.csproj.GenerateResource.cache
+D:\HXT\7_quanLyDuAnCntt\Team 6\Team 6\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.csproj.CoreCompileInputs.cache
+D:\HXT\7_quanLyDuAnCntt\Team 6\Team 6\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.exe
+D:\HXT\7_quanLyDuAnCntt\Team 6\Team 6\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.pdb
+D:\HXT\7_quanLyDuAnCntt\QuanLyNhaTro\NhaTro\NhaTro\bin\Debug\NhaTro.exe.config
+D:\HXT\7_quanLyDuAnCntt\QuanLyNhaTro\NhaTro\NhaTro\bin\Debug\NhaTro.exe
+D:\HXT\7_quanLyDuAnCntt\QuanLyNhaTro\NhaTro\NhaTro\bin\Debug\NhaTro.pdb
+D:\HXT\7_quanLyDuAnCntt\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.csproj.AssemblyReference.cache
+D:\HXT\7_quanLyDuAnCntt\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.csproj.SuggestedBindingRedirects.cache
+D:\HXT\7_quanLyDuAnCntt\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Login.resources
+D:\HXT\7_quanLyDuAnCntt\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Main.resources
+D:\HXT\7_quanLyDuAnCntt\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Manager.resources
+D:\HXT\7_quanLyDuAnCntt\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Bill.resources
+D:\HXT\7_quanLyDuAnCntt\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.statistical.resources
+D:\HXT\7_quanLyDuAnCntt\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.rent.resources
+D:\HXT\7_quanLyDuAnCntt\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Properties.Resources.resources
+D:\HXT\7_quanLyDuAnCntt\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.csproj.GenerateResource.cache
+D:\HXT\7_quanLyDuAnCntt\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.csproj.CoreCompileInputs.cache
+D:\HXT\7_quanLyDuAnCntt\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.exe
+D:\HXT\7_quanLyDuAnCntt\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.pdb

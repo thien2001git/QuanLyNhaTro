@@ -1,0 +1,31 @@
+D:\QuanLyNhaTro\NhaTro\NhaTro\bin\Release\NhaTro.exe.config
+D:\QuanLyNhaTro\NhaTro\NhaTro\bin\Release\NhaTro.exe
+D:\QuanLyNhaTro\NhaTro\NhaTro\bin\Release\NhaTro.pdb
+D:\QuanLyNhaTro\NhaTro\NhaTro\obj\Release\NhaTro.csprojAssemblyReference.cache
+D:\QuanLyNhaTro\NhaTro\NhaTro\obj\Release\NhaTro.Login.resources
+D:\QuanLyNhaTro\NhaTro\NhaTro\obj\Release\NhaTro.Main.resources
+D:\QuanLyNhaTro\NhaTro\NhaTro\obj\Release\NhaTro.Manager.resources
+D:\QuanLyNhaTro\NhaTro\NhaTro\obj\Release\NhaTro.Bill.resources
+D:\QuanLyNhaTro\NhaTro\NhaTro\obj\Release\NhaTro.statistical.resources
+D:\QuanLyNhaTro\NhaTro\NhaTro\obj\Release\NhaTro.rent.resources
+D:\QuanLyNhaTro\NhaTro\NhaTro\obj\Release\NhaTro.Properties.Resources.resources
+D:\QuanLyNhaTro\NhaTro\NhaTro\obj\Release\NhaTro.csproj.GenerateResource.cache
+D:\QuanLyNhaTro\NhaTro\NhaTro\obj\Release\NhaTro.csproj.CoreCompileInputs.cache
+D:\QuanLyNhaTro\NhaTro\NhaTro\obj\Release\NhaTro.exe
+D:\QuanLyNhaTro\NhaTro\NhaTro\obj\Release\NhaTro.pdb
+D:\HXT\7_quanLyDuAnCntt\Team 6\Team 6\QuanLyNhaTro\NhaTro\NhaTro\bin\Release\NhaTro.exe.config
+D:\HXT\7_quanLyDuAnCntt\Team 6\Team 6\QuanLyNhaTro\NhaTro\NhaTro\bin\Release\NhaTro.exe
+D:\HXT\7_quanLyDuAnCntt\Team 6\Team 6\QuanLyNhaTro\NhaTro\NhaTro\bin\Release\NhaTro.pdb
+D:\HXT\7_quanLyDuAnCntt\Team 6\Team 6\QuanLyNhaTro\NhaTro\NhaTro\obj\Release\NhaTro.csproj.AssemblyReference.cache
+D:\HXT\7_quanLyDuAnCntt\Team 6\Team 6\QuanLyNhaTro\NhaTro\NhaTro\obj\Release\NhaTro.csproj.SuggestedBindingRedirects.cache
+D:\HXT\7_quanLyDuAnCntt\Team 6\Team 6\QuanLyNhaTro\NhaTro\NhaTro\obj\Release\NhaTro.Login.resources
+D:\HXT\7_quanLyDuAnCntt\Team 6\Team 6\QuanLyNhaTro\NhaTro\NhaTro\obj\Release\NhaTro.Main.resources
+D:\HXT\7_quanLyDuAnCntt\Team 6\Team 6\QuanLyNhaTro\NhaTro\NhaTro\obj\Release\NhaTro.Manager.resources
+D:\HXT\7_quanLyDuAnCntt\Team 6\Team 6\QuanLyNhaTro\NhaTro\NhaTro\obj\Release\NhaTro.Bill.resources
+D:\HXT\7_quanLyDuAnCntt\Team 6\Team 6\QuanLyNhaTro\NhaTro\NhaTro\obj\Release\NhaTro.statistical.resources
+D:\HXT\7_quanLyDuAnCntt\Team 6\Team 6\QuanLyNhaTro\NhaTro\NhaTro\obj\Release\NhaTro.rent.resources
+D:\HXT\7_quanLyDuAnCntt\Team 6\Team 6\QuanLyNhaTro\NhaTro\NhaTro\obj\Release\NhaTro.Properties.Resources.resources
+D:\HXT\7_quanLyDuAnCntt\Team 6\Team 6\QuanLyNhaTro\NhaTro\NhaTro\obj\Release\NhaTro.csproj.GenerateResource.cache
+D:\HXT\7_quanLyDuAnCntt\Team 6\Team 6\QuanLyNhaTro\NhaTro\NhaTro\obj\Release\NhaTro.csproj.CoreCompileInputs.cache
+D:\HXT\7_quanLyDuAnCntt\Team 6\Team 6\QuanLyNhaTro\NhaTro\NhaTro\obj\Release\NhaTro.exe
+D:\HXT\7_quanLyDuAnCntt\Team 6\Team 6\QuanLyNhaTro\NhaTro\NhaTro\obj\Release\NhaTro.pdb
