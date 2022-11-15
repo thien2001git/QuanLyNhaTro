@@ -213,6 +213,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="image\a1.PNG" />
+    <Content Include="Resources\3643769-building-home-house-main-menu-start_113416.png" />
+    <None Include="Resources\4552616-glass-loupe-magnifier-magnifying-magnifying-glass-search-seo_121397.png" />
+    <None Include="Resources\compose_edit_modify_icon_177770.png" />
+    <None Include="Resources\trash_bin_icon-icons.com_67981.png" />
+    <None Include="Resources\add_circle_create_expand_new_plus_icon_123218.png" />
+    <None Include="Resources\invoice_transaction_bill_receipt_investment_dollar_icon_1884681.png" />
+    <None Include="Resources\graph-5_icon-icons.com_58023.png" />
+    <None Include="Resources\3706888-assembly-control-fix-setting_108715.png" />
+    <None Include="Resources\invoice_transaction_bill_receipt_investment_dollar_icon_188468.png" />
+    <None Include="Resources\3643769-building-home-house-main-menu-start_1134161.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

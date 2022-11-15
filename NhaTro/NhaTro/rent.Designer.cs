@@ -30,9 +30,6 @@
         {
             this.cbbTrangThai = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.bttThoat = new System.Windows.Forms.Button();
-            this.btt_xoa = new System.Windows.Forms.Button();
-            this.btt_Them = new System.Windows.Forms.Button();
             this.txtTienCoc = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.txtGiaPhong = new System.Windows.Forms.TextBox();
@@ -47,6 +44,9 @@
             this.txtSoPhieuThue = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.bttThoat = new System.Windows.Forms.Button();
+            this.btt_xoa = new System.Windows.Forms.Button();
+            this.btt_Them = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -73,60 +73,6 @@
             this.label7.Size = new System.Drawing.Size(173, 19);
             this.label7.TabIndex = 0;
             this.label7.Text = "Trạng Thái: ";
-            // 
-            // bttThoat
-            // 
-            this.bttThoat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(157)))), ((int)(((byte)(88)))));
-            this.tableLayoutPanel1.SetColumnSpan(this.bttThoat, 2);
-            this.bttThoat.Dock = System.Windows.Forms.DockStyle.Top;
-            this.bttThoat.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bttThoat.ForeColor = System.Drawing.Color.White;
-            this.bttThoat.Image = global::NhaTro.Properties.Resources.iconfinder_multimedia_17_2849819;
-            this.bttThoat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bttThoat.Location = new System.Drawing.Point(30, 550);
-            this.bttThoat.Margin = new System.Windows.Forms.Padding(30, 4, 4, 4);
-            this.bttThoat.Name = "bttThoat";
-            this.bttThoat.Size = new System.Drawing.Size(382, 52);
-            this.bttThoat.TabIndex = 9;
-            this.bttThoat.Text = "      Quay lại";
-            this.bttThoat.UseVisualStyleBackColor = false;
-            this.bttThoat.Click += new System.EventHandler(this.bttThoat_Click);
-            // 
-            // btt_xoa
-            // 
-            this.btt_xoa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(157)))), ((int)(((byte)(88)))));
-            this.tableLayoutPanel1.SetColumnSpan(this.btt_xoa, 2);
-            this.btt_xoa.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btt_xoa.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btt_xoa.ForeColor = System.Drawing.Color.White;
-            this.btt_xoa.Image = global::NhaTro.Properties.Resources.iconfinder_multimedia_26_2849810;
-            this.btt_xoa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btt_xoa.Location = new System.Drawing.Point(30, 490);
-            this.btt_xoa.Margin = new System.Windows.Forms.Padding(30, 4, 4, 4);
-            this.btt_xoa.Name = "btt_xoa";
-            this.btt_xoa.Size = new System.Drawing.Size(382, 52);
-            this.btt_xoa.TabIndex = 8;
-            this.btt_xoa.Text = "      Xóa";
-            this.btt_xoa.UseVisualStyleBackColor = false;
-            this.btt_xoa.Click += new System.EventHandler(this.btt_xoa_Click);
-            // 
-            // btt_Them
-            // 
-            this.btt_Them.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(157)))), ((int)(((byte)(88)))));
-            this.tableLayoutPanel1.SetColumnSpan(this.btt_Them, 2);
-            this.btt_Them.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btt_Them.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btt_Them.ForeColor = System.Drawing.Color.White;
-            this.btt_Them.Image = global::NhaTro.Properties.Resources.Them;
-            this.btt_Them.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btt_Them.Location = new System.Drawing.Point(30, 430);
-            this.btt_Them.Margin = new System.Windows.Forms.Padding(30, 30, 4, 4);
-            this.btt_Them.Name = "btt_Them";
-            this.btt_Them.Size = new System.Drawing.Size(382, 52);
-            this.btt_Them.TabIndex = 7;
-            this.btt_Them.Text = "       Thêm";
-            this.btt_Them.UseVisualStyleBackColor = false;
-            this.btt_Them.Click += new System.EventHandler(this.btt_Them_Click);
             // 
             // txtTienCoc
             // 
@@ -307,6 +253,60 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.Size = new System.Drawing.Size(416, 614);
             this.tableLayoutPanel1.TabIndex = 10;
+            // 
+            // bttThoat
+            // 
+            this.bttThoat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(157)))), ((int)(((byte)(88)))));
+            this.tableLayoutPanel1.SetColumnSpan(this.bttThoat, 2);
+            this.bttThoat.Dock = System.Windows.Forms.DockStyle.Top;
+            this.bttThoat.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bttThoat.ForeColor = System.Drawing.Color.White;
+            this.bttThoat.Image = global::NhaTro.Properties.Resources._3643769_building_home_house_main_menu_start_113416;
+            this.bttThoat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bttThoat.Location = new System.Drawing.Point(30, 536);
+            this.bttThoat.Margin = new System.Windows.Forms.Padding(30, 4, 4, 4);
+            this.bttThoat.Name = "bttThoat";
+            this.bttThoat.Size = new System.Drawing.Size(382, 45);
+            this.bttThoat.TabIndex = 9;
+            this.bttThoat.Text = "      Quay lại";
+            this.bttThoat.UseVisualStyleBackColor = false;
+            this.bttThoat.Click += new System.EventHandler(this.bttThoat_Click);
+            // 
+            // btt_xoa
+            // 
+            this.btt_xoa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(157)))), ((int)(((byte)(88)))));
+            this.tableLayoutPanel1.SetColumnSpan(this.btt_xoa, 2);
+            this.btt_xoa.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btt_xoa.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btt_xoa.ForeColor = System.Drawing.Color.White;
+            this.btt_xoa.Image = global::NhaTro.Properties.Resources.trash_bin_icon_icons_com_67981;
+            this.btt_xoa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btt_xoa.Location = new System.Drawing.Point(30, 483);
+            this.btt_xoa.Margin = new System.Windows.Forms.Padding(30, 4, 4, 4);
+            this.btt_xoa.Name = "btt_xoa";
+            this.btt_xoa.Size = new System.Drawing.Size(382, 45);
+            this.btt_xoa.TabIndex = 8;
+            this.btt_xoa.Text = "      Xóa";
+            this.btt_xoa.UseVisualStyleBackColor = false;
+            this.btt_xoa.Click += new System.EventHandler(this.btt_xoa_Click);
+            // 
+            // btt_Them
+            // 
+            this.btt_Them.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(157)))), ((int)(((byte)(88)))));
+            this.tableLayoutPanel1.SetColumnSpan(this.btt_Them, 2);
+            this.btt_Them.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btt_Them.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btt_Them.ForeColor = System.Drawing.Color.White;
+            this.btt_Them.Image = global::NhaTro.Properties.Resources.add_circle_create_expand_new_plus_icon_123218;
+            this.btt_Them.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btt_Them.Location = new System.Drawing.Point(30, 430);
+            this.btt_Them.Margin = new System.Windows.Forms.Padding(30, 30, 4, 4);
+            this.btt_Them.Name = "btt_Them";
+            this.btt_Them.Size = new System.Drawing.Size(382, 45);
+            this.btt_Them.TabIndex = 7;
+            this.btt_Them.Text = "       Thêm";
+            this.btt_Them.UseVisualStyleBackColor = false;
+            this.btt_Them.Click += new System.EventHandler(this.btt_Them_Click);
             // 
             // rent
             // 

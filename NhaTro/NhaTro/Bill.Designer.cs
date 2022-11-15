@@ -34,10 +34,6 @@
             this.label16 = new System.Windows.Forms.Label();
             this.txtSoDien = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
-            this.btt_xoa = new System.Windows.Forms.Button();
-            this.btt_Sua = new System.Windows.Forms.Button();
-            this.btt_Them = new System.Windows.Forms.Button();
-            this.bttTimKiem = new System.Windows.Forms.Button();
             this.txtSoHD = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -75,6 +71,10 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.bttTimKiem = new System.Windows.Forms.Button();
+            this.btt_xoa = new System.Windows.Forms.Button();
+            this.btt_Them = new System.Windows.Forms.Button();
+            this.btt_Sua = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dGVHoaDon)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
@@ -138,72 +138,6 @@
             this.label15.Size = new System.Drawing.Size(68, 17);
             this.label15.TabIndex = 0;
             this.label15.Text = "Số Điện: ";
-            // 
-            // btt_xoa
-            // 
-            this.btt_xoa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(157)))), ((int)(((byte)(88)))));
-            this.btt_xoa.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btt_xoa.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btt_xoa.ForeColor = System.Drawing.Color.White;
-            this.btt_xoa.Image = global::NhaTro.Properties.Resources.iconfinder_multimedia_26_2849810;
-            this.btt_xoa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btt_xoa.Location = new System.Drawing.Point(351, 3);
-            this.btt_xoa.Name = "btt_xoa";
-            this.btt_xoa.Size = new System.Drawing.Size(168, 42);
-            this.btt_xoa.TabIndex = 12;
-            this.btt_xoa.Text = "      Xóa";
-            this.btt_xoa.UseVisualStyleBackColor = false;
-            this.btt_xoa.Click += new System.EventHandler(this.btt_xoa_Click);
-            // 
-            // btt_Sua
-            // 
-            this.btt_Sua.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(157)))), ((int)(((byte)(88)))));
-            this.btt_Sua.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btt_Sua.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btt_Sua.ForeColor = System.Drawing.Color.White;
-            this.btt_Sua.Image = global::NhaTro.Properties.Resources.sua;
-            this.btt_Sua.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btt_Sua.Location = new System.Drawing.Point(177, 3);
-            this.btt_Sua.Name = "btt_Sua";
-            this.btt_Sua.Size = new System.Drawing.Size(168, 42);
-            this.btt_Sua.TabIndex = 11;
-            this.btt_Sua.Text = "       Sửa";
-            this.btt_Sua.UseVisualStyleBackColor = false;
-            this.btt_Sua.Click += new System.EventHandler(this.btt_Sua_Click);
-            // 
-            // btt_Them
-            // 
-            this.btt_Them.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(157)))), ((int)(((byte)(88)))));
-            this.btt_Them.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btt_Them.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btt_Them.ForeColor = System.Drawing.Color.White;
-            this.btt_Them.Image = global::NhaTro.Properties.Resources.Them;
-            this.btt_Them.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btt_Them.Location = new System.Drawing.Point(3, 3);
-            this.btt_Them.Name = "btt_Them";
-            this.btt_Them.Size = new System.Drawing.Size(168, 42);
-            this.btt_Them.TabIndex = 10;
-            this.btt_Them.Text = "       Thêm";
-            this.btt_Them.UseVisualStyleBackColor = false;
-            this.btt_Them.Click += new System.EventHandler(this.btt_Them_Click);
-            // 
-            // bttTimKiem
-            // 
-            this.bttTimKiem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(157)))), ((int)(((byte)(88)))));
-            this.bttTimKiem.Cursor = System.Windows.Forms.Cursors.Default;
-            this.bttTimKiem.Dock = System.Windows.Forms.DockStyle.Top;
-            this.bttTimKiem.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bttTimKiem.ForeColor = System.Drawing.Color.White;
-            this.bttTimKiem.Image = global::NhaTro.Properties.Resources.iconfinder_00_ELASTOFONT_STORE_READY_search_2703065;
-            this.bttTimKiem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bttTimKiem.Location = new System.Drawing.Point(874, 4);
-            this.bttTimKiem.Margin = new System.Windows.Forms.Padding(4);
-            this.bttTimKiem.Name = "bttTimKiem";
-            this.bttTimKiem.Size = new System.Drawing.Size(167, 42);
-            this.bttTimKiem.TabIndex = 2;
-            this.bttTimKiem.Text = "       Tìm Kiếm";
-            this.bttTimKiem.UseVisualStyleBackColor = false;
-            this.bttTimKiem.Click += new System.EventHandler(this.bttTimKiem_Click);
             // 
             // txtSoHD
             // 
@@ -639,6 +573,72 @@
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50F));
             this.tableLayoutPanel3.Size = new System.Drawing.Size(1045, 50);
             this.tableLayoutPanel3.TabIndex = 1;
+            // 
+            // bttTimKiem
+            // 
+            this.bttTimKiem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(157)))), ((int)(((byte)(88)))));
+            this.bttTimKiem.Cursor = System.Windows.Forms.Cursors.Default;
+            this.bttTimKiem.Dock = System.Windows.Forms.DockStyle.Top;
+            this.bttTimKiem.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bttTimKiem.ForeColor = System.Drawing.Color.White;
+            this.bttTimKiem.Image = global::NhaTro.Properties.Resources._4552616_glass_loupe_magnifier_magnifying_magnifying_glass_search_seo_121397;
+            this.bttTimKiem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bttTimKiem.Location = new System.Drawing.Point(874, 4);
+            this.bttTimKiem.Margin = new System.Windows.Forms.Padding(4);
+            this.bttTimKiem.Name = "bttTimKiem";
+            this.bttTimKiem.Size = new System.Drawing.Size(167, 42);
+            this.bttTimKiem.TabIndex = 2;
+            this.bttTimKiem.Text = "       Tìm Kiếm";
+            this.bttTimKiem.UseVisualStyleBackColor = false;
+            this.bttTimKiem.Click += new System.EventHandler(this.bttTimKiem_Click);
+            // 
+            // btt_xoa
+            // 
+            this.btt_xoa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(157)))), ((int)(((byte)(88)))));
+            this.btt_xoa.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btt_xoa.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btt_xoa.ForeColor = System.Drawing.Color.White;
+            this.btt_xoa.Image = global::NhaTro.Properties.Resources.trash_bin_icon_icons_com_67981;
+            this.btt_xoa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btt_xoa.Location = new System.Drawing.Point(351, 3);
+            this.btt_xoa.Name = "btt_xoa";
+            this.btt_xoa.Size = new System.Drawing.Size(168, 42);
+            this.btt_xoa.TabIndex = 12;
+            this.btt_xoa.Text = "      Xóa";
+            this.btt_xoa.UseVisualStyleBackColor = false;
+            this.btt_xoa.Click += new System.EventHandler(this.btt_xoa_Click);
+            // 
+            // btt_Them
+            // 
+            this.btt_Them.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(157)))), ((int)(((byte)(88)))));
+            this.btt_Them.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btt_Them.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btt_Them.ForeColor = System.Drawing.Color.White;
+            this.btt_Them.Image = global::NhaTro.Properties.Resources.add_circle_create_expand_new_plus_icon_123218;
+            this.btt_Them.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btt_Them.Location = new System.Drawing.Point(3, 3);
+            this.btt_Them.Name = "btt_Them";
+            this.btt_Them.Size = new System.Drawing.Size(168, 42);
+            this.btt_Them.TabIndex = 10;
+            this.btt_Them.Text = "       Thêm";
+            this.btt_Them.UseVisualStyleBackColor = false;
+            this.btt_Them.Click += new System.EventHandler(this.btt_Them_Click);
+            // 
+            // btt_Sua
+            // 
+            this.btt_Sua.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(157)))), ((int)(((byte)(88)))));
+            this.btt_Sua.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btt_Sua.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btt_Sua.ForeColor = System.Drawing.Color.White;
+            this.btt_Sua.Image = global::NhaTro.Properties.Resources.compose_edit_modify_icon_177770;
+            this.btt_Sua.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btt_Sua.Location = new System.Drawing.Point(177, 3);
+            this.btt_Sua.Name = "btt_Sua";
+            this.btt_Sua.Size = new System.Drawing.Size(168, 42);
+            this.btt_Sua.TabIndex = 11;
+            this.btt_Sua.Text = "       Sửa";
+            this.btt_Sua.UseVisualStyleBackColor = false;
+            this.btt_Sua.Click += new System.EventHandler(this.btt_Sua_Click);
             // 
             // Bill
             // 

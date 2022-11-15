@@ -57,7 +57,7 @@
             this.bttThongKe.Dock = System.Windows.Forms.DockStyle.Top;
             this.bttThongKe.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bttThongKe.ForeColor = System.Drawing.Color.White;
-            this.bttThongKe.Image = global::NhaTro.Properties.Resources.iconfinder_business_finance_money_31_2784264;
+            this.bttThongKe.Image = global::NhaTro.Properties.Resources.graph_5_icon_icons_com_58023;
             this.bttThongKe.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bttThongKe.Location = new System.Drawing.Point(692, 54);
             this.bttThongKe.Margin = new System.Windows.Forms.Padding(30, 4, 4, 4);
@@ -131,7 +131,7 @@
             this.txtTongTien.Dock = System.Windows.Forms.DockStyle.Top;
             this.txtTongTien.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTongTien.Location = new System.Drawing.Point(445, 4);
-            this.txtTongTien.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTongTien.Margin = new System.Windows.Forms.Padding(4);
             this.txtTongTien.Name = "txtTongTien";
             this.txtTongTien.Size = new System.Drawing.Size(434, 53);
             this.txtTongTien.TabIndex = 1;
@@ -160,7 +160,7 @@
             this.tableLayoutPanel3.SetColumnSpan(this.DVThongKe, 2);
             this.DVThongKe.Dock = System.Windows.Forms.DockStyle.Fill;
             this.DVThongKe.Location = new System.Drawing.Point(4, 64);
-            this.DVThongKe.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.DVThongKe.Margin = new System.Windows.Forms.Padding(4);
             this.DVThongKe.Name = "DVThongKe";
             this.DVThongKe.RowHeadersWidth = 51;
             this.DVThongKe.Size = new System.Drawing.Size(875, 389);
@@ -204,7 +204,7 @@
             this.bttThoat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(157)))), ((int)(((byte)(88)))));
             this.bttThoat.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bttThoat.ForeColor = System.Drawing.Color.White;
-            this.bttThoat.Image = global::NhaTro.Properties.Resources.iconfinder_multimedia_17_2849819;
+            this.bttThoat.Image = global::NhaTro.Properties.Resources._3643769_building_home_house_main_menu_start_113416;
             this.bttThoat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bttThoat.Location = new System.Drawing.Point(612, 462);
             this.bttThoat.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -278,7 +278,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(889, 711);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "statistical";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Thống Kê Doanh Thu";

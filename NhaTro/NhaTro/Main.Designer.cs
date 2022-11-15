@@ -30,10 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.thuêTrọToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.LapHoaDonToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.QuanLyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.thongKeDoanhThuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.txtTrangThai = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.txtGiaPhong = new System.Windows.Forms.TextBox();
@@ -51,8 +47,12 @@
             this.imageListRoom = new System.Windows.Forms.ImageList(this.components);
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.bttLamMoi = new System.Windows.Forms.Button();
             this.bttDatPhong = new System.Windows.Forms.Button();
+            this.bttLamMoi = new System.Windows.Forms.Button();
+            this.thuêTrọToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.LapHoaDonToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.QuanLyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.thongKeDoanhThuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
@@ -77,41 +77,6 @@
             this.menuStrip1.Size = new System.Drawing.Size(1012, 33);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
-            // 
-            // thuêTrọToolStripMenuItem
-            // 
-            this.thuêTrọToolStripMenuItem.ForeColor = System.Drawing.Color.White;
-            this.thuêTrọToolStripMenuItem.Image = global::NhaTro.Properties.Resources.iconfinder_multimedia_17_2849819;
-            this.thuêTrọToolStripMenuItem.Name = "thuêTrọToolStripMenuItem";
-            this.thuêTrọToolStripMenuItem.Size = new System.Drawing.Size(148, 27);
-            this.thuêTrọToolStripMenuItem.Text = "Thuê Phòng";
-            // 
-            // LapHoaDonToolStripMenuItem
-            // 
-            this.LapHoaDonToolStripMenuItem.ForeColor = System.Drawing.Color.White;
-            this.LapHoaDonToolStripMenuItem.Image = global::NhaTro.Properties.Resources.iconfinder_multimedia_12_2849824;
-            this.LapHoaDonToolStripMenuItem.Name = "LapHoaDonToolStripMenuItem";
-            this.LapHoaDonToolStripMenuItem.Size = new System.Drawing.Size(122, 27);
-            this.LapHoaDonToolStripMenuItem.Text = "Hóa Đơn";
-            this.LapHoaDonToolStripMenuItem.Click += new System.EventHandler(this.LapHoaDonToolStripMenuItem_Click);
-            // 
-            // QuanLyToolStripMenuItem
-            // 
-            this.QuanLyToolStripMenuItem.ForeColor = System.Drawing.Color.White;
-            this.QuanLyToolStripMenuItem.Image = global::NhaTro.Properties.Resources.iconfinder_multimedia_06_2849830;
-            this.QuanLyToolStripMenuItem.Name = "QuanLyToolStripMenuItem";
-            this.QuanLyToolStripMenuItem.Size = new System.Drawing.Size(118, 27);
-            this.QuanLyToolStripMenuItem.Text = "Quản Lý";
-            this.QuanLyToolStripMenuItem.Click += new System.EventHandler(this.QuanLyToolStripMenuItem_Click);
-            // 
-            // thongKeDoanhThuToolStripMenuItem
-            // 
-            this.thongKeDoanhThuToolStripMenuItem.ForeColor = System.Drawing.Color.White;
-            this.thongKeDoanhThuToolStripMenuItem.Image = global::NhaTro.Properties.Resources.iconfinder_business_finance_money_35_2784268;
-            this.thongKeDoanhThuToolStripMenuItem.Name = "thongKeDoanhThuToolStripMenuItem";
-            this.thongKeDoanhThuToolStripMenuItem.Size = new System.Drawing.Size(228, 27);
-            this.thongKeDoanhThuToolStripMenuItem.Text = "Thống Kê Doanh Thu";
-            this.thongKeDoanhThuToolStripMenuItem.Click += new System.EventHandler(this.thongKeDoanhThuToolStripMenuItem_Click);
             // 
             // txtTrangThai
             // 
@@ -326,32 +291,71 @@
             this.tableLayoutPanel2.Size = new System.Drawing.Size(325, 753);
             this.tableLayoutPanel2.TabIndex = 3;
             // 
+            // bttDatPhong
+            // 
+            this.bttDatPhong.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(157)))), ((int)(((byte)(88)))));
+            this.tableLayoutPanel2.SetColumnSpan(this.bttDatPhong, 2);
+            this.bttDatPhong.Dock = System.Windows.Forms.DockStyle.Top;
+            this.bttDatPhong.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bttDatPhong.ForeColor = System.Drawing.Color.White;
+            this.bttDatPhong.Location = new System.Drawing.Point(3, 377);
+            this.bttDatPhong.Name = "bttDatPhong";
+            this.bttDatPhong.Size = new System.Drawing.Size(319, 50);
+            this.bttDatPhong.TabIndex = 8;
+            this.bttDatPhong.Text = "Thuê";
+            this.bttDatPhong.UseVisualStyleBackColor = false;
+            this.bttDatPhong.Click += new System.EventHandler(this.bttDatPhong_Click);
+            // 
             // bttLamMoi
             // 
+            this.bttLamMoi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(157)))), ((int)(((byte)(88)))));
             this.tableLayoutPanel2.SetColumnSpan(this.bttLamMoi, 2);
             this.bttLamMoi.Dock = System.Windows.Forms.DockStyle.Top;
             this.bttLamMoi.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bttLamMoi.ForeColor = System.Drawing.Color.White;
             this.bttLamMoi.Location = new System.Drawing.Point(3, 321);
             this.bttLamMoi.Margin = new System.Windows.Forms.Padding(3, 30, 3, 3);
             this.bttLamMoi.Name = "bttLamMoi";
             this.bttLamMoi.Size = new System.Drawing.Size(319, 50);
             this.bttLamMoi.TabIndex = 9;
             this.bttLamMoi.Text = "Làm mới";
-            this.bttLamMoi.UseVisualStyleBackColor = true;
+            this.bttLamMoi.UseVisualStyleBackColor = false;
             this.bttLamMoi.Click += new System.EventHandler(this.bttLamMoi_Click);
             // 
-            // bttDatPhong
+            // thuêTrọToolStripMenuItem
             // 
-            this.tableLayoutPanel2.SetColumnSpan(this.bttDatPhong, 2);
-            this.bttDatPhong.Dock = System.Windows.Forms.DockStyle.Top;
-            this.bttDatPhong.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bttDatPhong.Location = new System.Drawing.Point(3, 377);
-            this.bttDatPhong.Name = "bttDatPhong";
-            this.bttDatPhong.Size = new System.Drawing.Size(319, 50);
-            this.bttDatPhong.TabIndex = 8;
-            this.bttDatPhong.Text = "Thuê";
-            this.bttDatPhong.UseVisualStyleBackColor = true;
-            this.bttDatPhong.Click += new System.EventHandler(this.bttDatPhong_Click);
+            this.thuêTrọToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.thuêTrọToolStripMenuItem.Image = global::NhaTro.Properties.Resources._3643769_building_home_house_main_menu_start_113416;
+            this.thuêTrọToolStripMenuItem.Name = "thuêTrọToolStripMenuItem";
+            this.thuêTrọToolStripMenuItem.Size = new System.Drawing.Size(148, 27);
+            this.thuêTrọToolStripMenuItem.Text = "Thuê Phòng";
+            // 
+            // LapHoaDonToolStripMenuItem
+            // 
+            this.LapHoaDonToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.LapHoaDonToolStripMenuItem.Image = global::NhaTro.Properties.Resources.invoice_transaction_bill_receipt_investment_dollar_icon_1884681;
+            this.LapHoaDonToolStripMenuItem.Name = "LapHoaDonToolStripMenuItem";
+            this.LapHoaDonToolStripMenuItem.Size = new System.Drawing.Size(122, 27);
+            this.LapHoaDonToolStripMenuItem.Text = "Hóa Đơn";
+            this.LapHoaDonToolStripMenuItem.Click += new System.EventHandler(this.LapHoaDonToolStripMenuItem_Click);
+            // 
+            // QuanLyToolStripMenuItem
+            // 
+            this.QuanLyToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.QuanLyToolStripMenuItem.Image = global::NhaTro.Properties.Resources._3706888_assembly_control_fix_setting_108715;
+            this.QuanLyToolStripMenuItem.Name = "QuanLyToolStripMenuItem";
+            this.QuanLyToolStripMenuItem.Size = new System.Drawing.Size(118, 27);
+            this.QuanLyToolStripMenuItem.Text = "Quản Lý";
+            this.QuanLyToolStripMenuItem.Click += new System.EventHandler(this.QuanLyToolStripMenuItem_Click);
+            // 
+            // thongKeDoanhThuToolStripMenuItem
+            // 
+            this.thongKeDoanhThuToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.thongKeDoanhThuToolStripMenuItem.Image = global::NhaTro.Properties.Resources.graph_5_icon_icons_com_58023;
+            this.thongKeDoanhThuToolStripMenuItem.Name = "thongKeDoanhThuToolStripMenuItem";
+            this.thongKeDoanhThuToolStripMenuItem.Size = new System.Drawing.Size(228, 27);
+            this.thongKeDoanhThuToolStripMenuItem.Text = "Thống Kê Doanh Thu";
+            this.thongKeDoanhThuToolStripMenuItem.Click += new System.EventHandler(this.thongKeDoanhThuToolStripMenuItem_Click);
             // 
             // Main
             // 
